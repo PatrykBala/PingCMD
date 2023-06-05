@@ -1,0 +1,1 @@
+for /f "eol=" %%g IN (enter_IP_addresses.txt) do START "%%g" CMD /c "mode 80, 5 & ping %%g -t"
